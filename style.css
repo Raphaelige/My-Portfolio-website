@@ -80,8 +80,8 @@ a:hover {
 }
 
 .profile-img {
-  width: 100px;        /* smaller size */
-  height: 100px;
+  width: 50px;        /* smaller size */
+  height: 50px;
   max-width: 20%;      /* responsive on mobile */
   object-fit: cover;
   border-radius: 50%;  /* circular */
