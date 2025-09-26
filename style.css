@@ -80,10 +80,11 @@ a:hover {
 }
 
 .profile-img {
-  width: 150px;        /* size of the photo */
-  height: 150px;
-  object-fit: cover;   /* keeps aspect ratio */
-  border-radius: 50%;  /* circular image */
+  width: 100px;        /* smaller size */
+  height: 100px;
+  max-width: 20%;      /* responsive on mobile */
+  object-fit: cover;
+  border-radius: 50%;  /* circular */
   border: 3px solid #00bcd4;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
